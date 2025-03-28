@@ -66,7 +66,6 @@ if print_data:
     print("Country with highest percentage of rich:", highest_earning_country)
     print(f"Highest percentage of rich people in country: {highest_earning_country_percentage}%")
     print("Top occupations in India:", top_IN_occupation)
-    
     return {
         'race_count': race_count,
         'average_age_men': average_age_men,
