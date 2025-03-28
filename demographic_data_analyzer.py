@@ -67,16 +67,18 @@ if print_data:
     print(f"Highest percentage of rich people in country: {highest_earning_country_percentage}%")
     print("Top occupations in India:", top_IN_occupation)
     
-    return
-    {'race_count': race_count,
-    'average_age_men': average_age_men,
-    'percentage_bachelors': percentage_bachelors,
-    'higher_education_rich': higher_education_rich,
-    'lower_education_rich': lower_education_rich,
-    'min_work_hours': min_work_hours,
-    'rich_percentage': rich_percentage,
-    'highest_earning_country': highest_earning_country,
-    'highest_earning_country_percentage':
-    highest_earning_country_percentage,
-    'top_IN_occupation': top_IN_occupation
-}
+    def demographic_data_analyzer():
+    # Your existing calculations here...
+    
+    return {
+        'race_count': race_count,
+        'average_age_men': average_age_men,
+        'percentage_bachelors': percentage_bachelors,
+        'higher_education_rich': higher_education_rich,
+        'lower_education_rich': lower_education_rich,
+        'min_work_hours': min_work_hours,
+        'rich_percentage': rich_percentage,
+        'highest_earning_country': highest_earning_country,
+        'highest_earning_country_percentage': highest_earning_country_percentage,
+        'top_IN_occupation': top_IN_occupation
+    }
