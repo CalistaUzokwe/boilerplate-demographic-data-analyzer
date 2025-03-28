@@ -46,7 +46,8 @@ rich_percentage = rich_percentage = (num_min_workers[num_min_workers[14] == ">50
 
 
 # What country has the highest percentage of people that earn >50K?
-highest_earning_country = highest_earning_country = country_salary_counts[">50K"].idxmax()
+country_salary_counts = df[df["salary"] == ">50K"]["native-country"].value_counts()
+
 highest_earning_country_percentage = highest_earning_country_percentage = country_salary_counts[">50K"].max() * 100
 
 # Identify the most popular occupation for those who earn >50K in India.
