@@ -45,8 +45,9 @@ rich_percentage = (num_min_workers[num_min_workers[14] == ">50K"].shape[0] / num
 rich_percentage = rich_percentage = (num_min_workers[num_min_workers[14] == ">50K"].shape[0] / num_min_workers.shape[0]) * 100
 
 
-# What country has the highest percentage of people that earn >50K?
-country_salary_counts = df[df["salary"] == ">50K"]["native-country"].value_counts()
+# What country has the highest percentage of people that earn 
+highest_earning_country = country_salary_counts.idxmax()
+
 
 highest_earning_country_percentage = highest_earning_country_percentage = country_salary_counts[">50K"].max() * 100
 
